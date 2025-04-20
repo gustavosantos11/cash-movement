@@ -9,7 +9,6 @@ def screen():
     app.title('Movimento de Caixa')
     app.geometry('800x800')
 
-    # Variáveis para armazenar os valores dos campos
     documento = ctk.StringVar()
     historico = ctk.StringVar()
     entrada = ctk.StringVar()
@@ -67,7 +66,6 @@ def screen():
         )
     lin_e.pack(pady=10)
 
-    # Frame para mensagens
     message_frame = ctk.CTkFrame(app)
     message_frame.pack(pady=10)
     message_label = ctk.CTkLabel(message_frame, text="")
